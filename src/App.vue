@@ -106,6 +106,7 @@ export default {
 
 <style>
 .app {
+  margin-top: 0;
   display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -115,6 +116,8 @@ export default {
 }
 .header {
   width: 100vw;
+  background-color: rgb(51, 51, 129);
+  color: white;
   display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
