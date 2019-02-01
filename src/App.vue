@@ -96,7 +96,7 @@ export default {
       this.battleBots = [];
     },
     battle() {
-      var winner = this.battleBots[Math.floor(Math.random()*this.battleBots.length)]
+      var winner = this.battleBots[Math.floor(Math.random()*this.battleBots.length)].name;
       alert(`${winner} wins!`)
       this.clearBattle();
     }
